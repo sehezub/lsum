@@ -1,0 +1,12 @@
+{
+  "name": "lsum",
+  "version": "0.2.0",
+  "description": "Summarize noisy command output for Claude Code with a local LLM (Ollama), monitor dev servers in the background, and notify Claude of runtime errors.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/smoke.test.mjs",
+    "build:installer": "node scripts/build-installer.mjs"
+  }
+}
